@@ -218,7 +218,7 @@ var person = new Person();
 
 * `.call` 和 `.apply` 的区别是什么？
 
-* 请解释 `Function.prototype.bind`？
+* 请解释 `Function.prototype.bind`[答案](http://blog.jobbole.com/58032/)？
 
 * 你何时优化自己的代码？
 
@@ -251,6 +251,15 @@ var person = new Person();
 * 如何实现下列代码：
 ```javascript
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
+
+>>>
+Array.prototype.duplicator=function(){
+	var len =this.length;
+	for(var i=0;i<len;i++){
+		this[len+i]=this[i];
+	}
+	return this;
+}
 ```
 
 * 什么是三元表达式？“三元” 表示什么意思？
@@ -283,12 +292,19 @@ var person = new Person();
 * 请优化下列选择器：
 ```javascript
 $(".foo div#bar:eq(0)")
+
+>>> $("#bar").eq(0)
 ```
 
 ####[[⬆]](#toc) <a name='jscode'>代码相关的问题：</a>
 
 ```javascript
 modulo(12, 5) // 2
+
+>>>
+function(a,b){
+	return x%b;
+}
 ```
 
 问题：实现满足上述结果的modulo函数
