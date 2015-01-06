@@ -302,7 +302,7 @@ $(".foo div#bar:eq(0)")
 modulo(12, 5) // 2
 
 >>>
-function(a,b){
+function modulo(a,b){
 	return x%b;
 }
 ```
