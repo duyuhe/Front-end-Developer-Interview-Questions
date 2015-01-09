@@ -69,13 +69,13 @@
 * 为什么利用多个域名来提供网站资源会更有效？
 	* 浏览器同一时间可以从一个域名下载多少资源？
     * 有什么例外吗？
-        * 加分项： 指出在手机端可能有负面影响 (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
+        * 加分项： 指出在手机端可能有[负面影响](http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
         * 加分项： HTTP2 / SPDY
 
 * 请说出三种减少页面加载时间的方法。（加载时间指感知的时间或者实际加载时间）
 
 * 如果你参与到一个项目中，发现他们使用 Tab 来缩进代码，但是你喜欢空格，你会怎么做？
-	* 建议这个项目使用像 EditorConfig (http://editorconfig.org/) 之类的规范
+	* 建议这个项目使用像 [EditorConfig](http://editorconfig.org/) 之类的规范
 	* 为了保持一致性，接受项目原有的风格
 	* 直接使用 VIM 的 retab 命令
 
@@ -101,8 +101,8 @@
 
 * 浏览器标准模式和怪异模式之间的区别是什么？
 
-* 使用 XHTML 的局限有哪些？ >>>代码必须规范书写，对大小写敏感
-	* 如果页面使用 'application/xhtml+xml' 会有什么问题吗？ >>>老浏览器不兼容
+* 使用 XHTML 的局限有哪些？  `代码必须规范书写，对大小写敏感`
+	* 如果页面使用 'application/xhtml+xml' 会有什么问题吗？ `老浏览器不兼容`
 
 * 如果网页内容需要支持多语言，你会怎么做？
 	* 在设计和开发多语言网站时，有哪些问题你必须要考虑？
