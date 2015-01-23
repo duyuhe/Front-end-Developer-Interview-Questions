@@ -181,7 +181,7 @@
 
 * 解释下事件代理。
 
-* 解释下 JavaScript 中 `this` 是如何工作的。
+* 解释下 JavaScript 中 `this` 是[如何工作](http://www.cnblogs.com/Wayou/p/all-this.html#home)的。
 
 * 解释下原型继承的原理。
 
