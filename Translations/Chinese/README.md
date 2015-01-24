@@ -293,7 +293,7 @@ Array.prototype.duplicator=function(){
 ```javascript
 $(".foo div#bar:eq(0)")
 
->>> $("#bar").eq(0)
+>>> $("#bar")
 ```
 
 ####[[⬆]](#toc) <a name='jscode'>代码相关的问题：</a>
@@ -303,7 +303,7 @@ modulo(12, 5) // 2
 
 >>>
 function modulo(a,b){
-	return x%b;
+	return a%b;
 }
 ```
 
